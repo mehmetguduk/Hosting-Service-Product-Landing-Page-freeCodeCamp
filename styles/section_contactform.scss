@@ -1,0 +1,176 @@
+/*XXXXXXXXXXXXX__STYLES__XXXXXXXXXXXXX*/
+
+section#contact-form {
+    padding: 60px 0;
+    height: 100%;
+    background-color: #ffffff;
+
+    div.contact {
+        width: 100%;
+
+        h3.contact-title {
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+        }
+        form#form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            input#email {
+                -webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                border: none;
+                font-family: "Poppins", sans-serif;
+                padding: 10px 20px;
+                margin: 20px 0 10px 0;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+                color: #464646;
+                transition: 0.3s;
+
+                &:focus {
+                    background-color: #e8f0fe;
+                    outline: none;
+                }
+            }
+            textarea#message {
+                -webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                border: none;
+                font-family: "Poppins", sans-serif;
+                resize: none;
+                padding: 10px 20px;
+                margin: 10px 0 20px 0;
+                color: #464646;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+                transition: 0.3s;
+                height: 200px;
+
+                &:focus {
+                    background-color: #e8f0fe;
+                    outline: none;
+                }
+            }
+            input#submit {
+                -webkit-box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.2);
+                background-color: #9888fd;
+                color: #f0f0f0;
+                border: none;
+                border-radius: 2px;
+                transition: 0.3s;
+                cursor: pointer;
+                width: 100px;
+                height: 30px;
+                font-size: 14px;
+
+                &:hover {
+                    background-color: #464646;
+                }
+
+                &:active {
+                    background-color: #1d1d1d;
+                }
+            }
+        }
+    }
+}
+
+/*XXXXXXXXXXXXX__RESPONSIVE__XXXXXXXXXXXXX*/
+
+@media only screen and (min-width: 600px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 500px;
+                }
+                textarea#message {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 600px;
+                }
+                textarea#message {
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 400px;
+                }
+                textarea#message {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 300px;
+                }
+                textarea#message {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 230px;
+                }
+                textarea#message {
+                    width: 230px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 265px) {
+    section#contact-form {
+        div.contact {
+            form#form {
+                input#email {
+                    width: 120px;
+                    font-size: 12px;
+                    height: 50px;
+                    word-wrap: normal;
+                }
+                textarea#message {
+                    width: 120px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
