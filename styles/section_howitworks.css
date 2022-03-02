@@ -1,1 +1,6 @@
+/*
+THIS FILE WAS DEVELOPED BY MEHMET GUDUK
+© 2022 COPYRIGHT, LICENSED WITH GPL-3.0 LICENSE, AUTHOR IS MEHMET GUDUK
+*/
+
 section#how-it-works{padding:60px 0;height:100%;background-color:#fff;display:flex;justify-content:center}section#how-it-works div.video-container iframe#video{box-shadow:0px 0px 15px 4px rgba(0,0,0,.5);border-radius:10px}@media only screen and (min-width: 1400px){iframe#video{width:800px;height:500px}}@media only screen and (max-width: 1400px){iframe#video{width:620px;height:340px}}@media only screen and (max-width: 1000px){iframe#video{width:500px;height:280px}}@media only screen and (max-width: 800px){iframe#video{width:400px;height:220px}}@media only screen and (max-width: 700px){iframe#video{width:360px;height:200px}}@media only screen and (max-width: 500px){iframe#video{width:280px;height:160px}}@media only screen and (max-width: 400px){iframe#video{width:250px;height:150px}}@media only screen and (max-width: 300px){iframe#video{width:180px;height:110px}}@media only screen and (max-width: 200px){iframe#video{width:120px;height:100px}}
