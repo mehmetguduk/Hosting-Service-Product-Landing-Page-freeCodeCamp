@@ -33,7 +33,7 @@ section#contact-form {
                 background-color: #f0f0f0;
                 border-radius: 5px;
                 color: #464646;
-                transition: 0.3s;
+                transition: background-color 0.3s;
 
                 &:focus {
                     background-color: #e8f0fe;
@@ -51,7 +51,7 @@ section#contact-form {
                 color: #464646;
                 background-color: #f0f0f0;
                 border-radius: 5px;
-                transition: 0.3s;
+                transition: background-color 0.3s;
                 height: 200px;
 
                 &:focus {
@@ -66,11 +66,12 @@ section#contact-form {
                 color: #f0f0f0;
                 border: none;
                 border-radius: 2px;
-                transition: 0.3s;
                 cursor: pointer;
                 width: 100px;
                 height: 30px;
                 font-size: 14px;
+                transition: background-color 0.2s;
+
 
                 &:hover {
                     background-color: #464646;
