@@ -15,6 +15,7 @@ header#header {
     position: fixed;
     top: 0;
     color: #000000;
+    user-select: none;
     -webkit-box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.7);
     box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.7);
     z-index: 99;
